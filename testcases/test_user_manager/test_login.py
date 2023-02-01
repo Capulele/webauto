@@ -14,14 +14,14 @@ class TestLogin:
 	def test_01_login(self , username , password , except_res):
 		load_log().info('测试用户名{},密码{}'.format(username , password))
 		result = UserLogin().userlogin(username , password)
-		BS=BasePage()
+		bs = BasePage()
 		# noinspection PyBroadException
 		try:
 			assert result == except_res
 			load_log().info('实际结果"{}"与预期结果"{}"一致'.format(result , except_res))
 			load_log().info('---登录功能用例通过---')
 			# 调用截图方法进行截图
-			BS.save_page_screenshot()
+			bs.save_page_screenshot()
 		except:
 			load_log().error('---登录测试不通过---')
-			BS.save_page_screenshot()
+			bs.save_page_screenshot()
