@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jan 31 09:42:10 CST 2023","Tue Jan 31 09:42:18 CST 2023","7812","testcases.test_search_function","test_project_search","TestProjectSearch","","","test_projects_search[第三季度哈哈多]",""
+"passed","Tue Jan 31 09:42:02 CST 2023","Tue Jan 31 09:42:10 CST 2023","8083","testcases.test_search_function","test_project_search","TestProjectSearch","","","test_projects_search[产品]",""
+"passed","Mon Jan 30 16:42:03 CST 2023","Mon Jan 30 16:42:09 CST 2023","6078","testcases","test_login","TestLogin","","","test_01_login[admin-11111111-登录成功]",""
+"passed","Mon Jan 30 16:42:09 CST 2023","Mon Jan 30 16:42:24 CST 2023","15484","testcases","test_login","TestLogin","","","test_01_login[admin1-11111111-登录失败]",""
+"passed","Tue Jan 31 09:42:18 CST 2023","Tue Jan 31 09:42:30 CST 2023","11958","testcases.test_user_manager","test_login","TestLogin","","","test_01_login[admin-11111111-登录成功]",""
+"passed","Tue Jan 31 09:42:30 CST 2023","Tue Jan 31 09:42:51 CST 2023","21244","testcases.test_user_manager","test_login","TestLogin","","","test_01_login[admin1-11111111-登录失败]",""

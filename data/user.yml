@@ -1,0 +1,11 @@
+#用户账号和密码,期望结果数据
+cases:
+    - name: admin
+      pwd: 11111111
+      except_res: 登录成功
+
+    - name: admin1
+      pwd: 11111111
+      except_res: 登录失败
+
+
