@@ -1,3 +1,0 @@
-INFO     log:test_login.py:17 测试用户名admin,密码11111111
-INFO     log:test_login.py:22 实际结果"登录成功"与预期结果"登录成功"一致
-INFO     log:test_login.py:23 ---登录功能用例通过---

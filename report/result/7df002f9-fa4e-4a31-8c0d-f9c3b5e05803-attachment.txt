@@ -1,1 +1,0 @@
-INFO     log:test_project_search.py:18 查询功能正常
