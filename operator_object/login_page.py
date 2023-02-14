@@ -21,6 +21,7 @@ class UserLogin(BasePage , LoginEle):
 			self.driver.quit()
 		except:
 			return '登录失败'
+		self.driver.quit()
 
 # if __name__ == '__main__':
 #     UserLogin().userlogin('admin', '11111111')
